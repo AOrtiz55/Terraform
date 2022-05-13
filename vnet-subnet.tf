@@ -14,5 +14,5 @@ resource "azurerem_subnet" "myterraformsubnet"{
     address_prefix = ["10.0.2.0/24"]
 
     tags = var.tags
-
+    
 }
