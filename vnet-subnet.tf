@@ -13,6 +13,6 @@ resource "azurerem_subnet" "myterraformsubnet"{
     virtual_network_name = azurerm_virtual_network.myterraformnetwork
     address_prefix = ["10.0.2.0/24"]
 
-    tags = var.tags
     
+    #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
 }
